@@ -10,6 +10,8 @@ enabled_site_setting :disqus_login_enabled
 
 PLUGIN_NAME = 'discourse-disqus'.freeze
 
+register_asset 'stylesheets/disqus.scss'
+
 after_initialize do
 
   module ::Disqus
