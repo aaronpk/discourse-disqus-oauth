@@ -5,15 +5,14 @@
 # url: https://github.com/aaronpk/discourse-disqus-oauth
 
 require 'auth/oauth2_authenticator'
-require 'omniauth-disqus'
 
-enabled_site_setting :disqus_enabled
+enabled_site_setting :disqus_login_enabled
 
 PLUGIN_NAME = 'discourse-disqus'.freeze
 
 after_initialize do
 
-  module ::Patreon
+  module ::Disqus
     PLUGIN_NAME = 'discourse-disqus'.freeze
 
     class Engine < ::Rails::Engine
