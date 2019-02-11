@@ -54,7 +54,7 @@ after_initialize do
 
     info do
       {
-        :name        => raw_info['name'],
+        :name        => raw_info['username'],
         :nickname    => raw_info['username'],
         :email       => raw_info['email'],
         :location    => raw_info['location'],
