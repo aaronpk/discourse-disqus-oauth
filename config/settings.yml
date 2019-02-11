@@ -1,0 +1,8 @@
+plugins:
+  disqus_login_enabled:
+    default: false
+    client: true
+  disqus_client_id:
+    default: ''
+  disqus_client_secret:
+    default: ''
