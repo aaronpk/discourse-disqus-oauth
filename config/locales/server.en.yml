@@ -1,0 +1,5 @@
+en:
+  site_settings:
+    disqus_client_id: 'Disqus Client ID'
+    disqus_client_secret: 'Disqus Client Secret'
+    disqus_login_enabled: 'Enable Disqus Social Login'
